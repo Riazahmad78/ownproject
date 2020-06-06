@@ -1,0 +1,122 @@
+.navbar{
+    background-image: url(image/bluebg.jpg) !important;
+}
+.nav-link,dropdown-menu{
+    /* padding-right:  120px !important; */
+    color: red !important;
+    font-weight: bold !important;
+    font-size: 20px;
+    font-family: 'Piedra';font-size: 22px;
+}
+ 
+.navbar-brand{
+    padding-left: 120px;
+    
+}
+body{
+    font-family: 'Piedra';
+    background-image: url(images/bluebg.jpg);
+    background-size: cover;
+
+}
+.ramadan-deals{
+
+    
+
+}
+.fas fa-shopping-cart,fas fa-user-circle{
+    font-size: 100px;
+    
+}
+.dropdown-menu {
+    background-color: lightskyblue;
+}
+.fa-shipping-fast,.fa-thumbs-up,.fa-phone-volume{
+
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: #ffde03;
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+    color: red;
+
+}
+h3{
+    color: red !important;
+
+}
+
+.maincard{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+@media screen and (max-width: 600px) {
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    margin-top: 30px;
+}
+.card{
+    display: flex;
+    justify-content: space-around !important;
+    margin-top: 30px !important;
+    width: 250px;
+    background-color: rgb(252, 253, 253);
+}
+
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: #ffde03;
+    width: 100%;
+}
+.footer{
+    padding-top: 10px;
+    width: 100%;
+    background-color: lightblue;
+    height: 50px;
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-cSZMZ-Y.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  .fa-facebook,.fa-twitter,.fa-instagram{
+    padding-left: 20px;
+    margin-top: 100px;
+    font-size: 30px;
+    color: red;
+  }
+  .fa-facebook{
+    margin-left: 650px;
+  }
